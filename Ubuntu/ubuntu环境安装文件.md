@@ -54,6 +54,13 @@ $ tar -xvf cudnn-8.0-linux-x64-v5.1.tgz
 
 ## 常用工具
 
+- 常用工具
+
+```
+RUN apt-get update 
+RUN apt-get install -y net-tools procps curl wget vim telnet cron expect zip
+```
+
 - typora
 
 ```
