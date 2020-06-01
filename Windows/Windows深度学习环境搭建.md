@@ -77,10 +77,12 @@ lightgbm
 scikit-learn
 tqdm
 progressbar2
+
 # 自然语言
 gensim
 jieba
 beautifulsoup4
+
 # 图像
 opencv-contrib-python==3.4.2.17
 opencv-python==3.4.2.17
