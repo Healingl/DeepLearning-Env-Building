@@ -50,6 +50,18 @@ $ tar -xvf cudnn-8.0-linux-x64-v5.1.tgz
 
 - anaconda
 
+## 用户权限问题
+
+由于linux中的用户没有root权限，要添加root权限：
+首先使用root用户,su,然后：
+
+```
+# root用户下设置无密码用户切换
+ls -l /etc/sudoers
+vi /etc/sudoers
+加：一行
+kfk ALL=(root)NOPASSWD:ALL
+```
 
 
 ## 常用工具
